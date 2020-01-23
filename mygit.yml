@@ -1,7 +1,7 @@
 ---
 - hosts: 172.31.86.216
   tasks:
-  - name: install git on nodes
+  - name:
     apt:
      name: git
      state: present
@@ -11,7 +11,7 @@
      name: tree
      state: present
 
-  - name: install wget on nodes
+  - name: install wget
     apt:
      name: wget
      state: present
