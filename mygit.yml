@@ -6,12 +6,12 @@
      name: git
      state: present
   
-  - name: install tree on nodes
+
     apt:
      name: tree
      state: present
 
-  - name: install wget
+
     apt:
      name: wget
      state: present
