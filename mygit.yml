@@ -1,18 +1,18 @@
 ---
 - hosts: 172.31.86.216
   tasks:
-  - 
-    apt:
+  -
+   apt:
      name: git
      state: present
   
   - 
-    apt:
+   apt:
      name: tree
      state: present
 
   - 
-    apt:
+   apt:
      name: wget
      state: present
  
